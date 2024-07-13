@@ -1,0 +1,641 @@
+@media only screen and (max-width:575px) {
+    body{
+        border:2px solid red;
+    }
+    .bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .line h1{
+        font-size: 50px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        background-color: dimgray;
+        position: absolute;
+        left: 0%;
+        margin: 10px;
+        width: 70%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    #dropdown {
+        display: none;
+    }
+
+    #x-bar {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navbar {
+        margin-top: 2rem;
+        display: block;
+
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) #x-bar {
+        display: inline-block;
+    }
+
+    .container {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .para h1 {
+        width: 30vh;
+    }
+
+    .para h2 {
+        width: 30vh;
+    }
+
+    .container p {
+        width: 30vh;
+        text-align: start;
+    }
+
+    .container img {
+        width: 100%;
+       
+    }
+
+    .heading h1 {
+        /* width: 37vh; */
+        text-align: center;
+    }
+
+    .fact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourboxes {
+        width: 80%;
+        margin: 5px;
+    }
+
+    .fourboxes img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .says {
+        width: 90%;
+        margin: auto;
+    }
+
+    .says h1 {
+        /* width: 40vh; */
+        margin: auto;
+        font-size: 33px;
+    }
+
+    .customer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customer img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .customer h1 {
+        width: 30vh;
+    }
+
+    .customer p {
+        width: 28vh;
+        margin: auto;
+    }
+
+    .our-blog {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog1 img {
+        width: 100%;
+    }
+
+    .blog1 {
+        margin: 7px;
+        width: 90%;
+    }
+
+    .blog1 p {
+        width: 25vh;
+        text-align: start;
+    }
+
+    .back_image {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 86%;
+    }
+
+    .back_image img {
+        width: 100%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    .form input {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        background-color: dimgray;
+        position: absolute;
+        left: 0%;
+        margin: 10px;
+        width: 70%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+        margin: 40px;
+        margin-left: 36%;
+    }
+
+    #dropdown {
+        display: none;
+    }
+
+    #x-bar {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navbar {
+        margin-top: 2rem;
+        display: block;
+
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) #x-bar {
+        display: inline-block;
+    }
+
+    .container {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .para h1 {
+       font-size: 50px;
+    }
+
+    .para h2 {
+       font-size: 40px;
+    }
+
+    .container p {
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .container img {
+        width: 100%;
+      
+    }
+
+    .heading h1{
+        font-size: 45px;
+    }
+
+    .fact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fourboxes {
+        margin: 5px;
+    }
+
+    .fourboxes img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .says h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .customer {
+        flex-direction: column;
+    }
+
+    .customer img {
+        width: 100%;
+    }
+
+    .customer h1 {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .customer p {
+        text-align: start;
+        font-size: 33px;
+        width: 60vh;
+    }
+
+    .blog h1 {
+       font-size: 55px;
+    }
+
+    .our-blog {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog1 img {
+        width: 100%;
+    }
+
+    .blog1 {
+        margin: 7px;
+        width: 90%;
+    }
+
+    .blog1 h1 {
+        font-size: 40px;
+    }
+
+    .blog1 p {
+        width: 50vh;
+        font-size: 30px;
+    }
+
+    .blog1 button {
+        font-size: large;
+    }
+
+    .back_image {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back_image img {
+        width: 100%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    .form input {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:990px) {
+    .bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        background-color: dimgray;
+        position: absolute;
+        left: 0%;
+        margin: 10px;
+        width: 70%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: block;
+
+    }
+
+    #dropdown {
+        display: none;
+    }
+
+    #x-bar {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .navbar {
+        margin-top: 2rem;
+        display: block;
+
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+        display: none;
+    }
+
+    header:has(.hamburger-icon input[type="checkbox"]:checked) #x-bar {
+        display: inline-block;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 40%;
+
+    }
+
+    .para h1 {
+       font-size: 45px;
+    }
+
+    .para h2 {
+        font-size: 40px;
+    }
+
+    .container p {
+       font-size: 30px;
+    }
+
+    .container img {
+        width: 150%;
+        margin-left: -20%;
+    }
+
+    .heading h1 {
+       font-size: 45px;
+    }
+
+    .fact {
+       flex-wrap: wrap;
+    }
+
+    .fourboxes { 
+        margin: 5px;
+    }
+
+
+     .says h1 {
+       font-size: 45px;
+    }
+
+    .customer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customer img {
+        width: 100%;
+    }
+
+    .customer h1 {
+        font-size: 40px;
+    }
+
+    .customer p {
+       font-size: 30px;
+    }
+
+    .blog h1 {
+       font-size: 45px;
+    }
+
+    .our-blog {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog1 img {
+        width: 100%;
+    }
+
+    .blog1 {
+        margin: 7px;
+        width: 80%;
+    }
+
+    .blog1 h1 {
+        font-size: 30px;
+    }
+
+    .blog1 p {
+        font-size: 25px;
+        text-align: start;
+        width: auto;
+        line-height: 35px
+    }
+
+    .blog1 button {
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    .back_image {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back_image img {
+        width: 100%;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .form input {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width:991px) and (max-width:1300px){
+    .bg {
+        width: 100%;
+        height: 100%;
+    }
+    /* body{
+        border: 2px solid red;
+    } */
+
+    .navbar ul {
+       width: 20px;
+       padding: 2px 2px;
+      gap: 8px;
+    }
+    .navbar ul li{
+        font-size: 8px;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+     
+
+    .para h1 {
+       font-size: 35px;
+    }
+
+    .para h2 {
+      font-size: 30px;
+    }
+
+    .container p {
+       text-align: start;
+       font-size: 20px;
+    }
+    
+.container img{
+    width:100%;
+    height: 100%;
+}
+
+
+    .fact {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+
+    }
+
+    .fourboxes h1 {
+        font-size: 30px;
+    }
+
+    .fourboxes p {
+        font-size: 20px;
+    }
+
+    .fourboxes button {
+        font-size: 15px;
+        width: 30%;
+    }
+
+    .fourboxes {
+        width: 40%;
+        margin: 5px;
+    }
+
+    .fourboxes img {
+        width: 100%;
+        height: 60%;
+    }
+
+
+    .says h1 {
+       font-size: 50px;
+    }
+
+    .customer img {
+        width: 100%;
+
+    }
+
+    .customer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+
+    .customer h1 {
+        width: 60vh;
+        font-size: 40px;
+    }
+
+    .customer p {
+        width: 60vh;
+    }
+
+    .blog h1 {
+       font-size: 45px;
+    }
+
+    .blog1 img {
+        width: 100%;
+    }
+
+    .blog1 {
+        margin: 7px;
+        width: 50%;
+    }
+
+    .blog1 h1 {
+        font-size: 30px;
+    }
+
+    .blog1 p {
+       text-align: start;
+        font-size: 20px;
+    }
+
+    .blog1 button {
+        font-size: large;
+    }
+
+    /* .back_image {
+        flex-direction: column;
+    } */
+
+    .back_image img {
+        width: 100%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    .form input {
+        width: 60%;
+    }
+}
+    
